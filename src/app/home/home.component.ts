@@ -16,8 +16,8 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
               '.6s ease-in',
               keyframes([
                 style({ opacity: 0, transform: 'translateY(-75%)', offset: 0 }),
-                style({ opacity: 0.5, transform: 'translateY(35%)', offset: 0.3 }),
-                style({ opacity: 1, transform: 'translateY(0%)', offset: 1 }),
+                style({ opacity: 0.5, transform: 'translateY(25px)', offset: 0.3 }),
+                style({ opacity: 1, transform: 'translateY(0)', offset: 1 }),
               ]),
             ),
           ]),
@@ -29,9 +29,9 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
             animate(
               '.6s ease-in',
               keyframes([
-                style({ opacity: 1, transform: 'translateY(0%)', offset: 0 }),
-                style({ opacity: 0.5, transform: 'translateY(0%)', offset: 0.3 }),
-                style({ opacity: 1, transform: 'translateY(-75%)', offset: 1 }),
+                style({ opacity: 1, transform: 'translateY(0)', offset: 0 }),
+                style({ opacity: 0.5, transform: 'translateY(0px)', offset: 0.3 }),
+                style({ opacity: 0, transform: 'translateY(-75%)', offset: 1 }),
               ]),
             ),
           ]),
